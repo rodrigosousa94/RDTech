@@ -61,6 +61,7 @@ span{
     text-transform: uppercase;
     cursor: pointer;
     transition: 1s;
+    
 }
 
 .btn-container button:hover{
@@ -111,6 +112,7 @@ main{
     font-weight: 500;
     line-height: 36px; /* 138.462% */
     width: 600px;
+    text-align: center;
 }
 
 
@@ -144,7 +146,7 @@ input{
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
-    border: 1px solid #212529;
+    border: 3px solid #212529;
     background: #0C0C0C;
     margin-bottom: 30px;
     color: #AEAEAE;
@@ -171,6 +173,7 @@ input{
     font-weight: 600;
     line-height: normal;
     cursor: pointer;
+    border: none;
 }
 
 .btn-submit:hover{
@@ -260,6 +263,7 @@ input{
         line-height: 36px; /* 138.462% */
         width: auto;
         margin-left: 50px;
+        text-align: center;
     }
 
     .input-container {
@@ -284,7 +288,7 @@ input{
         height: 40px;
         flex-shrink: 0;
         border-radius: 4px;
-        border: 1px solid #212529;
+        border: 3px solid #212529;
         background: #0C0C0C;
         margin-bottom: 30px;
         color: #AEAEAE;
@@ -311,6 +315,7 @@ input{
         font-weight: 600;
         line-height: normal;
         cursor: pointer;
+        border: none;
     }
 
 
@@ -403,6 +408,7 @@ input{
         line-height: 36px; /* 138.462% */
         width: auto;
         margin-left: 80px;
+        text-align: center;
     }
 
     .input-container {
@@ -427,7 +433,7 @@ input{
         height: 40px;
         flex-shrink: 0;
         border-radius: 4px;
-        border: 1px solid #212529;
+        border: 3px solid #212529;
         background: #0C0C0C;
         margin-bottom: 30px;
         color: #AEAEAE;
@@ -455,6 +461,7 @@ input{
         font-weight: 600;
         line-height: normal;
         cursor: pointer;
+        border: none;
     }
 
 
@@ -546,6 +553,7 @@ input{
         line-height: 36px; /* 138.462% */
         width: auto;
         margin-left: 0px;
+        text-align: center;
     }
 
     .input-container {
@@ -569,7 +577,7 @@ input{
         width: 300px;;
         height: 40px;     
         border-radius: 4px;
-        border: 1px solid #212529;
+        border: 3px solid #212529;
         background: #0C0C0C;
         margin-bottom: 30px;
         color: #AEAEAE;
@@ -596,6 +604,7 @@ input{
         font-weight: 600;
         line-height: normal;
         cursor: pointer;
+        border: none;
     }
 
 
@@ -686,6 +695,7 @@ input{
         line-height: 36px; /* 138.462% */
         width: auto;
         margin-left: 50px;
+        text-align: center;
     }
 
     .input-container {
@@ -709,7 +719,7 @@ input{
         width: 300px;;
         height: 40px;     
         border-radius: 4px;
-        border: 1px solid #212529;
+        border: 3px solid #212529;
         background: #0C0C0C;
         margin-bottom: 30px;
         color: #AEAEAE;
@@ -736,6 +746,7 @@ input{
         font-weight: 600;
         line-height: normal;
         cursor: pointer;
+        border: none;
     }
 
 
@@ -826,6 +837,7 @@ input{
         line-height: 36px; /* 138.462% */
         width: auto;
         margin-left: 20px;
+        text-align: center;
     }
 
     .input-container {
@@ -849,7 +861,7 @@ input{
         width: 300px;;
         height: 40px;     
         border-radius: 4px;
-        border: 1px solid #212529;
+        border: 3px solid #212529;
         background: #0C0C0C;
         margin-bottom: 30px;
         color: #AEAEAE;
@@ -876,6 +888,7 @@ input{
         font-weight: 600;
         line-height: normal;
         cursor: pointer;
+        border: none;
     }
 
 
@@ -966,6 +979,7 @@ input{
         line-height: 36px; /* 138.462% */
         width: auto;
         margin-left: 20px;
+        text-align: center;
     }
 
     .input-container {
@@ -989,7 +1003,7 @@ input{
         width: 280px;;
         height: 40px;     
         border-radius: 4px;
-        border: 1px solid #212529;
+        border: 3px solid #212529;
         background: #0C0C0C;
         margin-bottom: 30px;
         color: #AEAEAE;
@@ -1016,6 +1030,7 @@ input{
         font-weight: 600;
         line-height: normal;
         cursor: pointer;
+        border: none;
     }
 
 
