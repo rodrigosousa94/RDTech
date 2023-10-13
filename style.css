@@ -1,0 +1,1022 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,700&family=Inter:wght@500;600&family=Saira:wght@300;600&family=Sora:wght@600&display=swap');
+/*font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Saira', sans-serif;
+font-family: 'Sora', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0C0C0C;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 0 100px 0;
+}
+
+.logo-container h2 {
+    color: #F9F9F9;
+    font-family: Saira;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+
+span{
+    background: linear-gradient(192deg, #899BFF 0%, #5C6FD9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Saira;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+
+.btn-container button{
+    height: 62px;
+    width: 190px;
+    border-radius: 6px;
+    border: 2px solid #899BFF;
+    padding: 21px, 30px, 21px, 30px;
+    background-color: transparent;
+    color: #F9F9F9;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn-container button:hover{
+    background-color: #899BFF;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container h2{
+    color: #F9F9F9;
+    text-align: center;
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 547px;
+    height: 120px;
+
+}
+
+.text-container h3{
+    color: #899BFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 589px;
+    height: 39px;
+    margin-top: 32px;
+    margin-bottom: 70px;
+    
+}
+
+.text-container p{
+    color: #AEAEAE;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 138.462% */
+    width: 600px;
+}
+
+
+.input-container {
+    margin-top: 78px;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    color: #AEAEAE;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 12px;
+    position: relative;
+    right: 270px;
+
+}
+
+input{
+    width: 600px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #212529;
+    background: #0C0C0C;
+    margin-bottom: 30px;
+    color: #AEAEAE;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.btn-submit{
+    display: flex;
+    width: 600px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #899BFF;
+    color: #0C0C0C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    opacity: .8;
+
+}
+
+.btn-submit:active{
+    opacity: .6;
+}
+
+@media (min-width: 600px) and (max-width: 740px){
+    .logo-container h2 {
+        color: #F9F9F9;
+        font-family: Saira;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    span{
+        background: linear-gradient(192deg, #899BFF 0%, #5C6FD9 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Saira;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    .btn-container button{
+        height: 42px;
+        max-width: 150px;
+        border-radius: 6px;
+        border: 1px solid #899BFF;
+        padding: 21px, 30px, 21px, 30px;
+        background-color: transparent;
+        color: #F9F9F9;
+        font-family: DM Sans;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+
+    .text-container h2{
+        color: #F9F9F9;
+        text-align: center;
+        font-family: Sora;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: auto;
+    }
+    
+
+    .text-container h3{
+        color: #899BFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: auto;
+        margin-top: 28px;
+        margin-bottom: 80px;
+        
+    }
+
+    .text-container p{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 138.462% */
+        width: auto;
+        margin-left: 50px;
+    }
+
+    .input-container {
+        margin-top: 50px;
+    }
+
+    label{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 10px;
+        position: relative;
+        right: 270px;
+    
+    }
+
+    input{
+        width: 600px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid #212529;
+        background: #0C0C0C;
+        margin-bottom: 30px;
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+    }
+    
+    .btn-submit{
+        display: flex;
+        width: 600px;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #899BFF;
+        color: #0C0C0C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+    }
+
+
+}
+
+
+@media (min-width: 481px) and (max-width:598px){
+
+    header{
+        display: flex;
+        justify-content: space-around;
+        margin: 32px 0 80px 0;
+    }
+
+    .logo-container h2 {
+        color: #F9F9F9;
+        font-family: Saira;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    span{
+        background: linear-gradient(192deg, #899BFF 0%, #5C6FD9 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Saira;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    .btn-container button{
+        height: 42px;
+        width: 120px;
+        border-radius: 6px;
+        border: 1px solid #899BFF;
+        padding: 21px, 30px, 21px, 30px;
+        background-color: transparent;
+        color: #F9F9F9;
+        font-family: DM Sans;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+
+    .text-container h2{
+        color: #F9F9F9;
+        text-align: center;
+        font-family: Sora;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: auto;
+        margin: auto;
+    }
+    
+
+    .text-container h3{
+        color: #899BFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        
+    }
+
+    .text-container p{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 138.462% */
+        width: auto;
+        margin-left: 80px;
+    }
+
+    .input-container {
+        margin-top: 50px;
+    }
+
+    label{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 10px;
+        position: relative;
+        right: 180px;
+    
+    }
+
+    input{
+        max-width: 400px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid #212529;
+        background: #0C0C0C;
+        margin-bottom: 30px;
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+    }
+    
+    .btn-submit{
+        display: flex;
+        width: 200px;
+        height: 40px;
+        padding: 16px 213px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #899BFF;
+        color: #0C0C0C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+    }
+
+
+}
+
+
+@media (max-width:424px){
+
+    header{
+        display: flex;
+        justify-content: space-around;
+        margin: 32px 0 80px 0;
+    }
+
+    .logo-container h2 {
+        color: #F9F9F9;
+        font-family: Saira;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    span{
+        background: linear-gradient(192deg, #899BFF 0%, #5C6FD9 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Saira;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    .btn-container button{
+        height: 42px;
+        width: 120px;
+        border-radius: 6px;
+        border: 1px solid #899BFF;
+        background-color: transparent;
+        color: #F9F9F9;
+        font-family: DM Sans;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+
+    .text-container h2{
+        color: #F9F9F9;
+        text-align: center;
+        font-family: Sora;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: auto;
+        margin: auto;
+    }
+    
+
+    .text-container h3{
+        color: #899BFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        
+    }
+
+    .text-container p{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 138.462% */
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .input-container {
+        margin-top: 50px;
+    }
+
+    label{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 10px;
+        position: relative;
+        right: 130px;
+    
+    }
+
+    input{
+        width: 300px;;
+        height: 40px;     
+        border-radius: 4px;
+        border: 1px solid #212529;
+        background: #0C0C0C;
+        margin-bottom: 30px;
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+    }
+    
+    .btn-submit{
+        display: flex;
+        width: 300px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #899BFF;
+        color: #0C0C0C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+    }
+
+
+}
+
+@media (max-width:475px){
+
+    header{
+        display: flex;
+        justify-content: space-around;
+        margin: 32px 0 80px 0;
+    }
+
+    .logo-container h2 {
+        color: #F9F9F9;
+        font-family: Saira;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    span{
+        background: linear-gradient(192deg, #899BFF 0%, #5C6FD9 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Saira;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    .btn-container button{
+        height: 42px;
+        width: 120px;
+        border-radius: 6px;
+        border: 1px solid #899BFF;
+        background-color: transparent;
+        color: #F9F9F9;
+        font-family: DM Sans;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+
+    .text-container h2{
+        color: #F9F9F9;
+        text-align: center;
+        font-family: Sora;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: auto;
+        margin: auto;
+    }
+    
+
+    .text-container h3{
+        color: #899BFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        
+    }
+
+    .text-container p{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 138.462% */
+        width: auto;
+        margin-left: 50px;
+    }
+
+    .input-container {
+        margin-top: 50px;
+    }
+
+    label{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 10px;
+        position: relative;
+        right: 130px;
+    
+    }
+
+    input{
+        width: 300px;;
+        height: 40px;     
+        border-radius: 4px;
+        border: 1px solid #212529;
+        background: #0C0C0C;
+        margin-bottom: 30px;
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+    }
+    
+    .btn-submit{
+        display: flex;
+        width: 300px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #899BFF;
+        color: #0C0C0C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+    }
+
+
+}
+
+@media (max-width:350px){
+
+    header{
+        display: flex;
+        justify-content: space-around;
+        margin: 32px 0 80px 0;
+    }
+
+    .logo-container h2 {
+        color: #F9F9F9;
+        font-family: Saira;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    span{
+        background: linear-gradient(192deg, #899BFF 0%, #5C6FD9 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Saira;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    .btn-container button{
+        height: 42px;
+        width: 120px;
+        border-radius: 6px;
+        border: 1px solid #899BFF;
+        background-color: transparent;
+        color: #F9F9F9;
+        font-family: DM Sans;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+
+    .text-container h2{
+        color: #F9F9F9;
+        text-align: center;
+        font-family: Sora;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: auto;
+        margin: auto;
+    }
+    
+
+    .text-container h3{
+        color: #899BFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        
+    }
+
+    .text-container p{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 138.462% */
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .input-container {
+        margin-top: 50px;
+    }
+
+    label{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 10px;
+        position: relative;
+        right: 130px;
+    
+    }
+
+    input{
+        width: 300px;;
+        height: 40px;     
+        border-radius: 4px;
+        border: 1px solid #212529;
+        background: #0C0C0C;
+        margin-bottom: 30px;
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+    }
+    
+    .btn-submit{
+        display: flex;
+        width: 300px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #899BFF;
+        color: #0C0C0C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+    }
+
+
+}
+
+@media (max-width:300px){
+
+    header{
+        display: flex;
+        justify-content: space-around;
+        margin: 25px 0 80px 0;
+    }
+
+    .logo-container h2 {
+        color: #F9F9F9;
+        font-family: Saira;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    span{
+        background: linear-gradient(192deg, #899BFF 0%, #5C6FD9 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Saira;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.8px;
+    }
+
+    .btn-container button{
+        height: 35px;
+        width: 80px;
+        border-radius: 6px;
+        border: 1px solid #899BFF;
+        background-color: transparent;
+        color: #F9F9F9;
+        font-family: DM Sans;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+
+    .text-container h2{
+        color: #F9F9F9;
+        text-align: center;
+        font-family: Sora;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: auto;
+        margin: auto;
+    }
+    
+
+    .text-container h3{
+        color: #899BFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        
+    }
+
+    .text-container p{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 138.462% */
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .input-container {
+        margin-top: 50px;
+    }
+
+    label{
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 10px;
+        position: relative;
+        right: 110px;
+    
+    }
+
+    input{
+        width: 280px;;
+        height: 40px;     
+        border-radius: 4px;
+        border: 1px solid #212529;
+        background: #0C0C0C;
+        margin-bottom: 30px;
+        color: #AEAEAE;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+    }
+    
+    .btn-submit{
+        display: flex;
+        width: 250px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #899BFF;
+        color: #0C0C0C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+    }
+
+
+}
